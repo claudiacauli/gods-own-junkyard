@@ -1,7 +1,7 @@
 name = "transaction_commit"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["TwoPhase", "PaxosCommit"]
+defaultTargets = ["TwoPhase", "PaxosCommit", "«2PCwithBTM»"]
 
 [leanOptions]
 pp.unicode.fun = true
@@ -22,3 +22,6 @@ name = "TwoPhase"
 
 [[lean_lib]]
 name = "PaxosCommit"
+
+[[lean_lib]]
+name = "«2PCwithBTM»"
