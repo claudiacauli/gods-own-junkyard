@@ -1,0 +1,27 @@
+name = "cosmos_db"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["CosmosDB", "CosmosDBProps", "CosmosDBWithReads", "Temporal"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.28.0"
+
+[[lean_lib]]
+name = "CosmosDB"
+
+[[lean_lib]]
+name = "CosmosDBProps"
+
+[[lean_lib]]
+name = "CosmosDBWithReads"
+
+[[lean_lib]]
+name = "Temporal"
